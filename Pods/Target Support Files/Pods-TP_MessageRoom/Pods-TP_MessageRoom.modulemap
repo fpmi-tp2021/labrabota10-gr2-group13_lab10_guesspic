@@ -1,0 +1,6 @@
+framework module Pods_TP_MessageRoom {
+  umbrella header "Pods-TP_MessageRoom-umbrella.h"
+
+  export *
+  module * { export * }
+}

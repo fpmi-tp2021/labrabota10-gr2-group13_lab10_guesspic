@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0025C2C9745D4BA1368DFC0CFE227662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */; };
+		01BA596147E4D4E51B542895959543EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */; };
+		19CE74B669A4CBA8E3DA17598643863C /* StompClientLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED385D38F0D51D501F3FEB1F5829117 /* StompClientLib.swift */; };
+		2BB4849EB5FC0E7F004DA65153098AC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */; };
+		5E5B1986C99B716DB7439092FCBC49CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */; };
+		605514663A0ABF6E9B2F7D3362984EDA /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF84761A9BB49928912615B1A94F6CDB /* SocketRocket.framework */; };
+		735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86967B6DAB9DF60BB693A95C777FBB7F /* SocketRocket-dummy.m */; };
+		73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 07540048D25BBCBB5AD6D7C300C23FD9 /* SRWebSocket.m */; };
+		73F0874B9AB0C69F2C0FCD046A56F630 /* Pods-TP_MessageRoom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC3789AF31828F090F522CDFCA66F7A /* Pods-TP_MessageRoom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6361A226F30A2AC91574938FB91760CC /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84C2FDC5CEE602F08A214750B65E092D /* Pods-TP_MessageRoomTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 336CEABBAE2BE4BCB596E57F12AB1817 /* Pods-TP_MessageRoomTests-dummy.m */; };
+		84D81AF99C9242B65DA37060A0668BF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */; };
+		867F5790C6C1DAB784C5C0BA92E6CB14 /* Pods-TP_MessageRoom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C7D32694D28B9D47048F14BA05C209 /* Pods-TP_MessageRoom-dummy.m */; };
+		9E2B1AC4FC728208BB79B52BFEB2D78F /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 67477FF35D79414FA9007BABF7154442 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B28D766CFDFAF0E7E0287E8FC6AC1C22 /* Pods-TP_MessageRoom-TP_MessageRoomUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA9BE3999137BD905A532735046EC9D /* Pods-TP_MessageRoom-TP_MessageRoomUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B812D418B9AC18887E00DF0688DD5BFD /* Pods-TP_MessageRoomTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFF2AB2111BB69B3927C67A4DD7E2B2 /* Pods-TP_MessageRoomTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC8A57A47046D234DC6203EA22B36A26 /* StompClientLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0898DA560C4F11DD23873D4DF858C9 /* StompClientLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C32995B48F3AF2FA4B9C7BCBE3AC98DE /* Pods-TP_MessageRoom-TP_MessageRoomUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA83ABA0D7E3633FD1E2BE38259882CD /* Pods-TP_MessageRoom-TP_MessageRoomUITests-dummy.m */; };
+		E9B7B74B8E22EA8B72014023066C5064 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E45732B1641A4D8777A7A61CE70D6D /* Security.framework */; };
+		F1673306D2528E24477E098832882D05 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E40EAE58A9D4FB11636DF59D923D7BEA /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4ABC50E363C22D7AD42EEF51FD005C6 /* StompClientLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E0A5370D9F14C8466BA41D7D216546 /* StompClientLib-dummy.m */; };
+		FFDED2CB3316B6FC19C01201F28E7546 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAD2FEB8855A7F634F0B4B2DD6F1BFB /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B7263FED9ED7396B42C99E4CFCB8868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
+			remoteInfo = SocketRocket;
+		};
+		96203AD46E0C061D3E5DE59938A565A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
+			remoteInfo = SocketRocket;
+		};
+		A2C96A24B4B6563E024D54BB0083412E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B6AB2BE3E4E7D1573B9CF1E37E0E43;
+			remoteInfo = "Pods-TP_MessageRoom";
+		};
+		B9451FFEBFACB0FC6B75E35B3ED1AA45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD357877094CC6561657F2D15837D659;
+			remoteInfo = StompClientLib;
+		};
+		C572B20437B06C7616F59D87D1D8D3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
+			remoteInfo = SocketRocket;
+		};
+		ED0268C4066A35A9604AD9A376B5216D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD357877094CC6561657F2D15837D659;
+			remoteInfo = StompClientLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0171BBECACC74B8940FEF74213E2DB00 /* Pods-TP_MessageRoom-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TP_MessageRoom-acknowledgements.plist"; sourceTree = "<group>"; };
+		03AB0F48BA7C12445FF93D0C59DA2B03 /* SocketRocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.debug.xcconfig; sourceTree = "<group>"; };
+		07540048D25BBCBB5AD6D7C300C23FD9 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		15E0A5370D9F14C8466BA41D7D216546 /* StompClientLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StompClientLib-dummy.m"; sourceTree = "<group>"; };
+		19CD82BE7552D21861EADC5BF314261F /* Pods-TP_MessageRoom-TP_MessageRoomUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TP_MessageRoom-TP_MessageRoomUITests-Info.plist"; sourceTree = "<group>"; };
+		1B679A28AE61A6C72937B97417531866 /* Pods-TP_MessageRoom-TP_MessageRoomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TP_MessageRoom-TP_MessageRoomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		277BD562BD18361943ED7751C550B595 /* StompClientLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StompClientLib.release.xcconfig; sourceTree = "<group>"; };
+		2BC83809A6532ACE6A2F553E886A31FA /* Pods_TP_MessageRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TP_MessageRoom.framework; path = "Pods-TP_MessageRoom.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		336CEABBAE2BE4BCB596E57F12AB1817 /* Pods-TP_MessageRoomTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TP_MessageRoomTests-dummy.m"; sourceTree = "<group>"; };
+		3664E5598224532990BA578633D3F672 /* Pods-TP_MessageRoom-TP_MessageRoomUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TP_MessageRoom-TP_MessageRoomUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		38C59ADED07962C73869AEE77E82DD87 /* StompClientLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StompClientLib.framework; path = StompClientLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F0DBFAD995D372C3437C4003E6976D /* Pods-TP_MessageRoomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TP_MessageRoomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		525DEB2FC6F1F5EFC12ECB9D45351EBE /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		5B7AFA201457B94EB01295A1CF3B9181 /* SocketRocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.release.xcconfig; sourceTree = "<group>"; };
+		60F4BDBF59F95AD30F6F63DCA0098926 /* Pods-TP_MessageRoom-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TP_MessageRoom-Info.plist"; sourceTree = "<group>"; };
+		6361A226F30A2AC91574938FB91760CC /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		65570B00E0768032899507E626B5068B /* StompClientLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StompClientLib.modulemap; sourceTree = "<group>"; };
+		67477FF35D79414FA9007BABF7154442 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		6B8641B7ABE7301118B04F2E7EB40FB7 /* Pods-TP_MessageRoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TP_MessageRoom.debug.xcconfig"; sourceTree = "<group>"; };
+		6EE53BCB7B45195E8EDB9E8368D47AB5 /* Pods-TP_MessageRoom-TP_MessageRoomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TP_MessageRoom-TP_MessageRoomUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6FA9BE3999137BD905A532735046EC9D /* Pods-TP_MessageRoom-TP_MessageRoomUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TP_MessageRoom-TP_MessageRoomUITests-umbrella.h"; sourceTree = "<group>"; };
+		70C81CAC67822E10CEB46D89F635F448 /* Pods-TP_MessageRoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TP_MessageRoom.release.xcconfig"; sourceTree = "<group>"; };
+		74C7D32694D28B9D47048F14BA05C209 /* Pods-TP_MessageRoom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TP_MessageRoom-dummy.m"; sourceTree = "<group>"; };
+		789F3D9D1170FEDBF63FB290B81943D6 /* StompClientLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StompClientLib-Info.plist"; sourceTree = "<group>"; };
+		79E2CA026C7831C84C539CCAA77A4395 /* Pods-TP_MessageRoomTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TP_MessageRoomTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D677654BC9E71EC1CC361109157ACE /* Pods-TP_MessageRoom-TP_MessageRoomUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TP_MessageRoom-TP_MessageRoomUITests-frameworks.sh"; sourceTree = "<group>"; };
+		86967B6DAB9DF60BB693A95C777FBB7F /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		8C5DCA78B9982AF378B9B44E076C4C87 /* Pods-TP_MessageRoomTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TP_MessageRoomTests-Info.plist"; sourceTree = "<group>"; };
+		8DAD2FEB8855A7F634F0B4B2DD6F1BFB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		9B2639FCE37FC876A826D91B982184C4 /* Pods_TP_MessageRoom_TP_MessageRoomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TP_MessageRoom_TP_MessageRoomUITests.framework; path = "Pods-TP_MessageRoom-TP_MessageRoomUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A33393E9213C7ADA9685363D8157EB02 /* Pods-TP_MessageRoom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TP_MessageRoom.modulemap"; sourceTree = "<group>"; };
+		A91FBE7694430AEEE8491E56488D9968 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		B50A4491A456438D028188CB12394EEE /* Pods-TP_MessageRoom-TP_MessageRoomUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TP_MessageRoom-TP_MessageRoomUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7E9F3926818E34615402471C6407442 /* Pods-TP_MessageRoomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TP_MessageRoomTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9DF575FD957D079818A7430E9BB8F28 /* Pods-TP_MessageRoomTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TP_MessageRoomTests.modulemap"; sourceTree = "<group>"; };
+		C06863ED9A9583B8BF6CBB44FF7AB47E /* StompClientLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StompClientLib.debug.xcconfig; sourceTree = "<group>"; };
+		C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C56CAE7F3E507191DBCD8930581DB75E /* Pods-TP_MessageRoomTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TP_MessageRoomTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C78E1E70680951FBD059371AC3D90365 /* Pods-TP_MessageRoom-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TP_MessageRoom-frameworks.sh"; sourceTree = "<group>"; };
+		CF84761A9BB49928912615B1A94F6CDB /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFF2AB2111BB69B3927C67A4DD7E2B2 /* Pods-TP_MessageRoomTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TP_MessageRoomTests-umbrella.h"; sourceTree = "<group>"; };
+		DED385D38F0D51D501F3FEB1F5829117 /* StompClientLib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StompClientLib.swift; path = StompClientLib/Classes/StompClientLib.swift; sourceTree = "<group>"; };
+		DFC3789AF31828F090F522CDFCA66F7A /* Pods-TP_MessageRoom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TP_MessageRoom-umbrella.h"; sourceTree = "<group>"; };
+		E40EAE58A9D4FB11636DF59D923D7BEA /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
+		E58D8FD0DCDA14F57A2CCB6BCB80B68D /* Pods-TP_MessageRoom-TP_MessageRoomUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TP_MessageRoom-TP_MessageRoomUITests.modulemap"; sourceTree = "<group>"; };
+		E5E45732B1641A4D8777A7A61CE70D6D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		EA83ABA0D7E3633FD1E2BE38259882CD /* Pods-TP_MessageRoom-TP_MessageRoomUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TP_MessageRoom-TP_MessageRoomUITests-dummy.m"; sourceTree = "<group>"; };
+		EACD90337EE975C530D59DB832F9B4F0 /* StompClientLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StompClientLib-prefix.pch"; sourceTree = "<group>"; };
+		EAD21FFE8D66029A2C13ECDCA407818A /* SocketRocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocketRocket-Info.plist"; sourceTree = "<group>"; };
+		FA5F7E15E125418D00E1399938870308 /* Pods-TP_MessageRoom-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TP_MessageRoom-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB8C1A3F85046D4AAB22F62F42E29527 /* Pods_TP_MessageRoomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TP_MessageRoomTests.framework; path = "Pods-TP_MessageRoomTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0898DA560C4F11DD23873D4DF858C9 /* StompClientLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StompClientLib-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48232FD7F3743D57DF16D7494B73FAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BA596147E4D4E51B542895959543EE /* Foundation.framework in Frameworks */,
+				605514663A0ABF6E9B2F7D3362984EDA /* SocketRocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51ED4A5DA3F72220CE02808F3CB492D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D81AF99C9242B65DA37060A0668BF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AC35E789C811CE09501582CCA2174A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDED2CB3316B6FC19C01201F28E7546 /* CFNetwork.framework in Frameworks */,
+				0025C2C9745D4BA1368DFC0CFE227662 /* Foundation.framework in Frameworks */,
+				E9B7B74B8E22EA8B72014023066C5064 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65023F15EF8F44B53AF957FE95818813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5B1986C99B716DB7439092FCBC49CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC4E09E379D7295CF7FD87FBBD10898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB4849EB5FC0E7F004DA65153098AC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F3E6A1737F6BAC5C6BB2A9EAE1C413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF84761A9BB49928912615B1A94F6CDB /* SocketRocket.framework */,
+				8693736AFD1DA0D91BE53ADE31884652 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A774F4B95245A0502AA531B55D82275 /* Pods-TP_MessageRoom */ = {
+			isa = PBXGroup;
+			children = (
+				A33393E9213C7ADA9685363D8157EB02 /* Pods-TP_MessageRoom.modulemap */,
+				FA5F7E15E125418D00E1399938870308 /* Pods-TP_MessageRoom-acknowledgements.markdown */,
+				0171BBECACC74B8940FEF74213E2DB00 /* Pods-TP_MessageRoom-acknowledgements.plist */,
+				74C7D32694D28B9D47048F14BA05C209 /* Pods-TP_MessageRoom-dummy.m */,
+				C78E1E70680951FBD059371AC3D90365 /* Pods-TP_MessageRoom-frameworks.sh */,
+				60F4BDBF59F95AD30F6F63DCA0098926 /* Pods-TP_MessageRoom-Info.plist */,
+				DFC3789AF31828F090F522CDFCA66F7A /* Pods-TP_MessageRoom-umbrella.h */,
+				6B8641B7ABE7301118B04F2E7EB40FB7 /* Pods-TP_MessageRoom.debug.xcconfig */,
+				70C81CAC67822E10CEB46D89F635F448 /* Pods-TP_MessageRoom.release.xcconfig */,
+			);
+			name = "Pods-TP_MessageRoom";
+			path = "Target Support Files/Pods-TP_MessageRoom";
+			sourceTree = "<group>";
+		};
+		6FB145DA4588697ACA1329CB9E55813D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A774F4B95245A0502AA531B55D82275 /* Pods-TP_MessageRoom */,
+				7FB4CD868234FD44A166DDF71492CD3B /* Pods-TP_MessageRoom-TP_MessageRoomUITests */,
+				71ED3C22E22A5DD9CF23834D693B907E /* Pods-TP_MessageRoomTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		71ED3C22E22A5DD9CF23834D693B907E /* Pods-TP_MessageRoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9DF575FD957D079818A7430E9BB8F28 /* Pods-TP_MessageRoomTests.modulemap */,
+				79E2CA026C7831C84C539CCAA77A4395 /* Pods-TP_MessageRoomTests-acknowledgements.markdown */,
+				C56CAE7F3E507191DBCD8930581DB75E /* Pods-TP_MessageRoomTests-acknowledgements.plist */,
+				336CEABBAE2BE4BCB596E57F12AB1817 /* Pods-TP_MessageRoomTests-dummy.m */,
+				8C5DCA78B9982AF378B9B44E076C4C87 /* Pods-TP_MessageRoomTests-Info.plist */,
+				DBFF2AB2111BB69B3927C67A4DD7E2B2 /* Pods-TP_MessageRoomTests-umbrella.h */,
+				43F0DBFAD995D372C3437C4003E6976D /* Pods-TP_MessageRoomTests.debug.xcconfig */,
+				B7E9F3926818E34615402471C6407442 /* Pods-TP_MessageRoomTests.release.xcconfig */,
+			);
+			name = "Pods-TP_MessageRoomTests";
+			path = "Target Support Files/Pods-TP_MessageRoomTests";
+			sourceTree = "<group>";
+		};
+		7ABB9F087AD2DAD52AF291DF19E20437 /* StompClientLib */ = {
+			isa = PBXGroup;
+			children = (
+				DED385D38F0D51D501F3FEB1F5829117 /* StompClientLib.swift */,
+				D15250241F4FF56A8C045030BC5A7682 /* Support Files */,
+			);
+			name = StompClientLib;
+			path = StompClientLib;
+			sourceTree = "<group>";
+		};
+		7FB4CD868234FD44A166DDF71492CD3B /* Pods-TP_MessageRoom-TP_MessageRoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E58D8FD0DCDA14F57A2CCB6BCB80B68D /* Pods-TP_MessageRoom-TP_MessageRoomUITests.modulemap */,
+				B50A4491A456438D028188CB12394EEE /* Pods-TP_MessageRoom-TP_MessageRoomUITests-acknowledgements.markdown */,
+				3664E5598224532990BA578633D3F672 /* Pods-TP_MessageRoom-TP_MessageRoomUITests-acknowledgements.plist */,
+				EA83ABA0D7E3633FD1E2BE38259882CD /* Pods-TP_MessageRoom-TP_MessageRoomUITests-dummy.m */,
+				85D677654BC9E71EC1CC361109157ACE /* Pods-TP_MessageRoom-TP_MessageRoomUITests-frameworks.sh */,
+				19CD82BE7552D21861EADC5BF314261F /* Pods-TP_MessageRoom-TP_MessageRoomUITests-Info.plist */,
+				6FA9BE3999137BD905A532735046EC9D /* Pods-TP_MessageRoom-TP_MessageRoomUITests-umbrella.h */,
+				1B679A28AE61A6C72937B97417531866 /* Pods-TP_MessageRoom-TP_MessageRoomUITests.debug.xcconfig */,
+				6EE53BCB7B45195E8EDB9E8368D47AB5 /* Pods-TP_MessageRoom-TP_MessageRoomUITests.release.xcconfig */,
+			);
+			name = "Pods-TP_MessageRoom-TP_MessageRoomUITests";
+			path = "Target Support Files/Pods-TP_MessageRoom-TP_MessageRoomUITests";
+			sourceTree = "<group>";
+		};
+		80EFB63D4C5DE19A6A65CC40522C0AA9 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				6361A226F30A2AC91574938FB91760CC /* SocketRocket.h */,
+				67477FF35D79414FA9007BABF7154442 /* SRWebSocket.h */,
+				07540048D25BBCBB5AD6D7C300C23FD9 /* SRWebSocket.m */,
+				E7CE6ADF2DFE6277003503769BE6EED0 /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		8693736AFD1DA0D91BE53ADE31884652 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8DAD2FEB8855A7F634F0B4B2DD6F1BFB /* CFNetwork.framework */,
+				C1BCE281D4E9C59C89393A4B7E2B681D /* Foundation.framework */,
+				E5E45732B1641A4D8777A7A61CE70D6D /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCDC16FFDDFBC27207E064B6F6827A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BC83809A6532ACE6A2F553E886A31FA /* Pods_TP_MessageRoom.framework */,
+				9B2639FCE37FC876A826D91B982184C4 /* Pods_TP_MessageRoom_TP_MessageRoomUITests.framework */,
+				FB8C1A3F85046D4AAB22F62F42E29527 /* Pods_TP_MessageRoomTests.framework */,
+				85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */,
+				38C59ADED07962C73869AEE77E82DD87 /* StompClientLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				09F3E6A1737F6BAC5C6BB2A9EAE1C413 /* Frameworks */,
+				DAADE2289D0C5B22DC70628120AD2879 /* Pods */,
+				CCDC16FFDDFBC27207E064B6F6827A94 /* Products */,
+				6FB145DA4588697ACA1329CB9E55813D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D15250241F4FF56A8C045030BC5A7682 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65570B00E0768032899507E626B5068B /* StompClientLib.modulemap */,
+				15E0A5370D9F14C8466BA41D7D216546 /* StompClientLib-dummy.m */,
+				789F3D9D1170FEDBF63FB290B81943D6 /* StompClientLib-Info.plist */,
+				EACD90337EE975C530D59DB832F9B4F0 /* StompClientLib-prefix.pch */,
+				FE0898DA560C4F11DD23873D4DF858C9 /* StompClientLib-umbrella.h */,
+				C06863ED9A9583B8BF6CBB44FF7AB47E /* StompClientLib.debug.xcconfig */,
+				277BD562BD18361943ED7751C550B595 /* StompClientLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/StompClientLib";
+			sourceTree = "<group>";
+		};
+		DAADE2289D0C5B22DC70628120AD2879 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80EFB63D4C5DE19A6A65CC40522C0AA9 /* SocketRocket */,
+				7ABB9F087AD2DAD52AF291DF19E20437 /* StompClientLib */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7CE6ADF2DFE6277003503769BE6EED0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				525DEB2FC6F1F5EFC12ECB9D45351EBE /* SocketRocket.modulemap */,
+				86967B6DAB9DF60BB693A95C777FBB7F /* SocketRocket-dummy.m */,
+				EAD21FFE8D66029A2C13ECDCA407818A /* SocketRocket-Info.plist */,
+				A91FBE7694430AEEE8491E56488D9968 /* SocketRocket-prefix.pch */,
+				E40EAE58A9D4FB11636DF59D923D7BEA /* SocketRocket-umbrella.h */,
+				03AB0F48BA7C12445FF93D0C59DA2B03 /* SocketRocket.debug.xcconfig */,
+				5B7AFA201457B94EB01295A1CF3B9181 /* SocketRocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1675EAC2C520828429301254F9D72514 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F0874B9AB0C69F2C0FCD046A56F630 /* Pods-TP_MessageRoom-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BA34119E6FD4CDB922FEF45E0884DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1673306D2528E24477E098832882D05 /* SocketRocket-umbrella.h in Headers */,
+				778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */,
+				9E2B1AC4FC728208BB79B52BFEB2D78F /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474408D4E634B630CD98687341B6D65C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC8A57A47046D234DC6203EA22B36A26 /* StompClientLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C7DE1092C1797CFD302B9CB21957041 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B812D418B9AC18887E00DF0688DD5BFD /* Pods-TP_MessageRoomTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B0ADF0F3ADB5D9E68FFD29642D2F23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28D766CFDFAF0E7E0287E8FC6AC1C22 /* Pods-TP_MessageRoom-TP_MessageRoomUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7578135F0A9991A7E2A8B169207EBA17 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				17BA34119E6FD4CDB922FEF45E0884DA /* Headers */,
+				DB50286F169C0450B2990CE14479F856 /* Sources */,
+				56AC35E789C811CE09501582CCA2174A /* Frameworks */,
+				A6620E44D4248429BD059BDB7FBF21F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73B6AB2BE3E4E7D1573B9CF1E37E0E43 /* Pods-TP_MessageRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A6284F66FC6E06479E4497E5666DF3 /* Build configuration list for PBXNativeTarget "Pods-TP_MessageRoom" */;
+			buildPhases = (
+				1675EAC2C520828429301254F9D72514 /* Headers */,
+				4A3BDEFC988289E9D26E1383F08C7CE9 /* Sources */,
+				51ED4A5DA3F72220CE02808F3CB492D2 /* Frameworks */,
+				4FAA953D250BB0D72A4B383D5041CAF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				071361330DF93A931DD05A8A803BB938 /* PBXTargetDependency */,
+				CD8FC2776D9B57834A100273B46A1E62 /* PBXTargetDependency */,
+			);
+			name = "Pods-TP_MessageRoom";
+			productName = "Pods-TP_MessageRoom";
+			productReference = 2BC83809A6532ACE6A2F553E886A31FA /* Pods_TP_MessageRoom.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD357877094CC6561657F2D15837D659 /* StompClientLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26376CE241D66B98A36D674A3CAD0A6 /* Build configuration list for PBXNativeTarget "StompClientLib" */;
+			buildPhases = (
+				474408D4E634B630CD98687341B6D65C /* Headers */,
+				DD37A95FF4A5CDD1CCE70CD9464E5935 /* Sources */,
+				48232FD7F3743D57DF16D7494B73FAC1 /* Frameworks */,
+				6DDAA893CF07D4E71856558028329A50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB5E33214B112A49ACC2E26A48FB3F9 /* PBXTargetDependency */,
+			);
+			name = StompClientLib;
+			productName = StompClientLib;
+			productReference = 38C59ADED07962C73869AEE77E82DD87 /* StompClientLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CED9FEF5FC4EF9391CA2231FC659C44A /* Pods-TP_MessageRoom-TP_MessageRoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69B770C2914A918E76708202F166AA6 /* Build configuration list for PBXNativeTarget "Pods-TP_MessageRoom-TP_MessageRoomUITests" */;
+			buildPhases = (
+				92B0ADF0F3ADB5D9E68FFD29642D2F23 /* Headers */,
+				EED5B192A0615E686B3686B4E15F4818 /* Sources */,
+				65023F15EF8F44B53AF957FE95818813 /* Frameworks */,
+				A6D196FAAF286F041B52F4662DDC4337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8BC467DE636EDABF098F17719358912 /* PBXTargetDependency */,
+				4CB67907F7FC3AD00B75BFF256B9F08C /* PBXTargetDependency */,
+			);
+			name = "Pods-TP_MessageRoom-TP_MessageRoomUITests";
+			productName = "Pods-TP_MessageRoom-TP_MessageRoomUITests";
+			productReference = 9B2639FCE37FC876A826D91B982184C4 /* Pods_TP_MessageRoom_TP_MessageRoomUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F97F2CCF8F35670E7309FD82683CE472 /* Pods-TP_MessageRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2FDDBF8188C6ACD6D60BB4AA1AEE84 /* Build configuration list for PBXNativeTarget "Pods-TP_MessageRoomTests" */;
+			buildPhases = (
+				8C7DE1092C1797CFD302B9CB21957041 /* Headers */,
+				2BC79C9E36FFF78D56468E4AAE54B4F5 /* Sources */,
+				9EC4E09E379D7295CF7FD87FBBD10898 /* Frameworks */,
+				B80BA05974B3C6608E06CECEC392A4C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7233AEF1D06B4392CEA26AF099A1F1BA /* PBXTargetDependency */,
+			);
+			name = "Pods-TP_MessageRoomTests";
+			productName = "Pods-TP_MessageRoomTests";
+			productReference = FB8C1A3F85046D4AAB22F62F42E29527 /* Pods_TP_MessageRoomTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CCDC16FFDDFBC27207E064B6F6827A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73B6AB2BE3E4E7D1573B9CF1E37E0E43 /* Pods-TP_MessageRoom */,
+				CED9FEF5FC4EF9391CA2231FC659C44A /* Pods-TP_MessageRoom-TP_MessageRoomUITests */,
+				F97F2CCF8F35670E7309FD82683CE472 /* Pods-TP_MessageRoomTests */,
+				1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */,
+				BD357877094CC6561657F2D15837D659 /* StompClientLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FAA953D250BB0D72A4B383D5041CAF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDAA893CF07D4E71856558028329A50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6620E44D4248429BD059BDB7FBF21F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D196FAAF286F041B52F4662DDC4337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B80BA05974B3C6608E06CECEC392A4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BC79C9E36FFF78D56468E4AAE54B4F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C2FDC5CEE602F08A214750B65E092D /* Pods-TP_MessageRoomTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3BDEFC988289E9D26E1383F08C7CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867F5790C6C1DAB784C5C0BA92E6CB14 /* Pods-TP_MessageRoom-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB50286F169C0450B2990CE14479F856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */,
+				73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD37A95FF4A5CDD1CCE70CD9464E5935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ABC50E363C22D7AD42EEF51FD005C6 /* StompClientLib-dummy.m in Sources */,
+				19CE74B669A4CBA8E3DA17598643863C /* StompClientLib.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED5B192A0615E686B3686B4E15F4818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32995B48F3AF2FA4B9C7BCBE3AC98DE /* Pods-TP_MessageRoom-TP_MessageRoomUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		071361330DF93A931DD05A8A803BB938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = 96203AD46E0C061D3E5DE59938A565A9 /* PBXContainerItemProxy */;
+		};
+		4CB67907F7FC3AD00B75BFF256B9F08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StompClientLib;
+			target = BD357877094CC6561657F2D15837D659 /* StompClientLib */;
+			targetProxy = B9451FFEBFACB0FC6B75E35B3ED1AA45 /* PBXContainerItemProxy */;
+		};
+		7233AEF1D06B4392CEA26AF099A1F1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TP_MessageRoom";
+			target = 73B6AB2BE3E4E7D1573B9CF1E37E0E43 /* Pods-TP_MessageRoom */;
+			targetProxy = A2C96A24B4B6563E024D54BB0083412E /* PBXContainerItemProxy */;
+		};
+		A8BC467DE636EDABF098F17719358912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = C572B20437B06C7616F59D87D1D8D3AB /* PBXContainerItemProxy */;
+		};
+		CD8FC2776D9B57834A100273B46A1E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StompClientLib;
+			target = BD357877094CC6561657F2D15837D659 /* StompClientLib */;
+			targetProxy = ED0268C4066A35A9604AD9A376B5216D /* PBXContainerItemProxy */;
+		};
+		DFB5E33214B112A49ACC2E26A48FB3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = 1B7263FED9ED7396B42C99E4CFCB8868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D198A1993065F6EA9B809B106CE52D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C81CAC67822E10CEB46D89F635F448 /* Pods-TP_MessageRoom.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TP_MessageRoom/Pods-TP_MessageRoom-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TP_MessageRoom/Pods-TP_MessageRoom.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DA7E63DA1BC71CEEC650425A32FA3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277BD562BD18361943ED7751C550B595 /* StompClientLib.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StompClientLib/StompClientLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StompClientLib/StompClientLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StompClientLib/StompClientLib.modulemap";
+				PRODUCT_MODULE_NAME = StompClientLib;
+				PRODUCT_NAME = StompClientLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7856F46C967D94B1C8E733356DAC1472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE53BCB7B45195E8EDB9E8368D47AB5 /* Pods-TP_MessageRoom-TP_MessageRoomUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TP_MessageRoom-TP_MessageRoomUITests/Pods-TP_MessageRoom-TP_MessageRoomUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TP_MessageRoom-TP_MessageRoomUITests/Pods-TP_MessageRoom-TP_MessageRoomUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F4869130AADE71848150EEBD529344A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7AFA201457B94EB01295A1CF3B9181 /* SocketRocket.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/SocketRocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9085BA3F5A46251969CFE276FF8FDB3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B679A28AE61A6C72937B97417531866 /* Pods-TP_MessageRoom-TP_MessageRoomUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TP_MessageRoom-TP_MessageRoomUITests/Pods-TP_MessageRoom-TP_MessageRoomUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TP_MessageRoom-TP_MessageRoomUITests/Pods-TP_MessageRoom-TP_MessageRoomUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98DDF0F4DFBAC6E26E1794329D4695CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8641B7ABE7301118B04F2E7EB40FB7 /* Pods-TP_MessageRoom.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TP_MessageRoom/Pods-TP_MessageRoom-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TP_MessageRoom/Pods-TP_MessageRoom.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B54AD8BB605CE265AAC745CC8E3411C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E9F3926818E34615402471C6407442 /* Pods-TP_MessageRoomTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TP_MessageRoomTests/Pods-TP_MessageRoomTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TP_MessageRoomTests/Pods-TP_MessageRoomTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF76B86F642C7C5EA9BDF1640B63CA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F0DBFAD995D372C3437C4003E6976D /* Pods-TP_MessageRoomTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TP_MessageRoomTests/Pods-TP_MessageRoomTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TP_MessageRoomTests/Pods-TP_MessageRoomTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E56474FCC05EF03A66464DA30F4B860A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06863ED9A9583B8BF6CBB44FF7AB47E /* StompClientLib.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StompClientLib/StompClientLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StompClientLib/StompClientLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StompClientLib/StompClientLib.modulemap";
+				PRODUCT_MODULE_NAME = StompClientLib;
+				PRODUCT_NAME = StompClientLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0DE64977B2B4A15CB8D44CCC3A013A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AB0F48BA7C12445FF93D0C59DA2B03 /* SocketRocket.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/SocketRocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7578135F0A9991A7E2A8B169207EBA17 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0DE64977B2B4A15CB8D44CCC3A013A6 /* Debug */,
+				7F4869130AADE71848150EEBD529344A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2FDDBF8188C6ACD6D60BB4AA1AEE84 /* Build configuration list for PBXNativeTarget "Pods-TP_MessageRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF76B86F642C7C5EA9BDF1640B63CA41 /* Debug */,
+				B54AD8BB605CE265AAC745CC8E3411C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26376CE241D66B98A36D674A3CAD0A6 /* Build configuration list for PBXNativeTarget "StompClientLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56474FCC05EF03A66464DA30F4B860A /* Debug */,
+				2DA7E63DA1BC71CEEC650425A32FA3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A6284F66FC6E06479E4497E5666DF3 /* Build configuration list for PBXNativeTarget "Pods-TP_MessageRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DDF0F4DFBAC6E26E1794329D4695CB /* Debug */,
+				2D198A1993065F6EA9B809B106CE52D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69B770C2914A918E76708202F166AA6 /* Build configuration list for PBXNativeTarget "Pods-TP_MessageRoom-TP_MessageRoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9085BA3F5A46251969CFE276FF8FDB3E /* Debug */,
+				7856F46C967D94B1C8E733356DAC1472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

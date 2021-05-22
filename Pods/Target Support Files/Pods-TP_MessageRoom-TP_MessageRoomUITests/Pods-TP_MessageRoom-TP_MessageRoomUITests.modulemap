@@ -1,0 +1,6 @@
+framework module Pods_TP_MessageRoom_TP_MessageRoomUITests {
+  umbrella header "Pods-TP_MessageRoom-TP_MessageRoomUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

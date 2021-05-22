@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-TP_MessageRoom-TP_MessageRoomUITests/Pods-TP_MessageRoom-TP_MessageRoomUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework
+${BUILT_PRODUCTS_DIR}/StompClientLib/StompClientLib.framework
